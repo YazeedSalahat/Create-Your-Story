@@ -8,7 +8,7 @@ function cleanAndCap (str){
   return temp[0].toUpperCase() + temp.substring(1)
 }
 
-// Assigning the variables with values used in the story
+// Assigning the variables with values used in the story and so on.
 const firstAnimal= cleanAndCap(words.get('animal-1'));
 const secondAnimal = cleanAndCap(words.get('animal-2'));
 
